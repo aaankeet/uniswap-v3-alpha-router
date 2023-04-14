@@ -13,3 +13,14 @@ In this example we will trade between WETH and DAI on Polygon Mumbai Network, bu
 3. Swap using a route
 
 At the end of the guide, we should be able to create a route and execute a swap between any two currencies (tokens) programmatically.
+
+For this guide, the following Uniswap packages are used:
+
+* [@uniswap/v3-sdk](https://www.npmjs.com/package/@uniswap/v3-sdk)
+* [@uniswap/sdk-core](https://www.npmjs.com/package/@uniswap/sdk-core)
+* [@uniswap/smart-order-router](https://www.npmjs.com/package/@uniswap/smart-order-router)
+
+Install the Dependencies:
+```
+  npm install
+```
