@@ -20,7 +20,21 @@ For this guide, the following Uniswap packages are used:
 * [@uniswap/sdk-core](https://www.npmjs.com/package/@uniswap/sdk-core)
 * [@uniswap/smart-order-router](https://www.npmjs.com/package/@uniswap/smart-order-router)
 
-Install the Dependencies:
+# Install the Dependencies:
 ```
   npm install
 ```
+# Create a .env file and add all the environment variables:
+```
+  touch .env
+```
+# In .env file add the following variables:
+```
+  PRIVATE_KEY= "YOUR PRIVATE KEY"
+  MUMBAI_RPC_URL= "YOUR MUMBAI RPC URL"
+  POLYGON_API_KEY= "YOUR POLYGON API KEY"
+  WALLET_ADDRESS= "YOUR WALLET ADDRESS"
+  ```
+  
+  
+  
