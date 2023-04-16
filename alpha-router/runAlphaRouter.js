@@ -31,7 +31,7 @@ const WETH = WETH_POLYGON_MUMBAI; // Input Token
 const DAI = DAI_POLYGON_MUMBAI; // Output Token
 
 // Amount of Input Token, WETH in this case for 0.01
-const amount = ethers.utils.parseUnits('0.005', 18);
+const amount = ethers.utils.parseUnits('0.01', 18);
 const inputAmount = CurrencyAmount.fromRawAmount(WETH, JSBI.BigInt(amount));
 
 const main = async () => {
@@ -87,7 +87,7 @@ const main = async () => {
   // console.log(wethContract);
   console.log(`Insatance Created!`);
 
-  const approvalAmount = ethers.utils.parseEther('0.005').toString(); // Amount to approve
+  const approvalAmount = ethers.utils.parseEther('0.01').toString(); // Amount to approve
 
   console.log(`💸 Setting Approval for Swap Router to spend our WETH token`);
 
